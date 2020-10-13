@@ -1,0 +1,20 @@
+.bouton
+{
+color:#E85025;
+font-size:12px;
+cursor:pointer;
+font-family :'Fjord One';
+}
+.bouton:hover
+{
+text-decoration:underline;
+
+}
+.texte
+{
+border:1px solid ##E85025;
+background:#FFFFFF;
+padding:10px;
+color:#E85025;
+font-family :'Fjord One';
+}

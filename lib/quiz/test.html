@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Demoseite mit Beispielen, die mit dem JavaScript Quiz Framework gemacht wurden" />
+		<title>Interaktive Quizze - Felix Riesterer - private Homepage</title>
+	</head>
+	<body>
+	<h1>Interaktive Quizze</h1>
+	<div id="content">
+
+		<script type="text/javascript" src="./quiz.js"></script>
+		<ol>
+			<li><a href="#zuordnungs-quiz">Zuordungs-Quiz (paarweise)</a></li>
+			<li><a href="#zuordnungs-quiz-gruppenweise">Zuordungs-Quiz (gruppenweise)</a></li>
+			<li><a href="#lueckentext-quiz">Lückentext-Quiz</a></li>
+			<li><a href="#sortieraufgabe">Sortieraufgabe</a></li>
+			<li><a href="#bilderpuzzle">Bilderpuzzle (mit einem Lückentext-Quiz gemacht)</a></li>
+			<li><a href="#memo-quiz">Memo-Quiz</a></li>
+			<li><a href="#multiplechoice-quiz">Multiple-Choice-Quiz</a></li>
+			<li><a href="#schuettel-quiz">Schüttel-Quiz</a></li>
+			<li><a href="#kreuzwort-quiz">Kreuzwort-Quiz</a></li>
+			<li><a href="#suchsel-quiz">Suchsel-Quiz</a></li>
+			<li><a href="#buchstabenraten-quiz">Buchstabenraten-Quiz</a></li>
+		</ol>
+
+		<div class="zuordnungs-quiz" lang="de">
+			<h2 id="zuordnungs-quiz">Zuordnungs-Quiz (paarweise)</h2>
+			<p>Ordnen Sie folgende Begriffe/Dinge einander zu, indem Sie die grünen Felder mit der Maus verschieben!</p>
+			<table>
+				<tr>
+					<td><a href="http://google.de"><img src="https://felix-riesterer.de/main/images/quizze/biene.jpg" alt="Biene" /></a></td>
+					<td>Biene</td>
+				</tr>
+				<tr>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/birne.jpg" alt="Birne" /></td>
+					<td>Birne</td>
+				</tr>
+				<tr>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/gluecks_schwein.jpg" alt="Glücksschwein" /></td>
+					<td>Glücksschwein</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="zuordnungs-quiz" lang="de">
+			<h2 id="zuordnungs-quiz-gruppenweise">Zuordnungs-Quiz (gruppenweise)</h2>
+			<p>Ordnen Sie folgende Begriffe/Dinge einander zu, indem Sie die grünen Felder mit der Maus verschieben!</p>
+			<table>
+				<tr>
+					<td>Insekt</td>
+					<td>Käfer</td>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/biene.jpg" alt="Biene" /></td>
+					<td>Ameise</td>
+					<td>Motte</td>
+				</tr>
+				<tr>
+					<td>Obst</td>
+					<td>Pflaume</td>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/birne.jpg" alt="Birne" /></td>
+					<td>Apfel</td>
+					<td>Kirsche</td>
+					<td>Banane</td>
+				</tr>
+				<tr>
+					<td>Nutztier</td>
+					<td>Schaf</td>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/gluecks_schwein.jpg" alt="Glücksschwein" /></td>
+					<td>Rind</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="lueckentext-quiz" lang="de">
+			<h2 id="lueckentext-quiz">Lückentext-Quiz</h2>
+			<p>Füllen Sie die Lücken aus; entweder per Tastatureingabe, oder mittels Verschieben der grünen Felder mit der Maus!</p>
+			<p>Eine kleine <strong>Biene | Wespe | Mücke | Hummel (<img src="https://felix-riesterer.de/main/images/quizze/biene.jpg" alt="Biene" />)</strong> flog zu einer <strong>Birne (<img src="https://felix-riesterer.de/main/images/quizze/birne.jpg" alt="Birne" />)</strong> und fragte sie nach dem Weg zum <strong>Schwein|Schweinchen|Glücksschwein|Glücksschweinchen(<img src="https://felix-riesterer.de/main/images/quizze/gluecks_schwein.jpg" alt="Glücksschwein" />)</strong>. Kein <strong>Problem</strong>, sagte die <strong>Birne (<img src="https://felix-riesterer.de/main/images/quizze/birne.jpg" alt="Birne" />)</strong>. Folge einfach dem <strong>Weg</strong> nach <strong>links</strong>! Solltest du unterwegs aber doch ein <strong>Problem</strong> haben, dann frag <strong>einfach (nicht kompliziert)</strong> den nächsten Polizisten!</p>
+		</div>
+
+		<div class="lueckentext-quiz" lang="de">
+			<h2 id="sortieraufgabe">Sortieraufgabe</h2>
+			<p>Mit dem Lückentext-Quiz kann man auch eine Sortieraufgabe erstellen. Sortieren Sie mal alphabetisch!</p>
+			<p>Insektennamen aufsteigend:  <strong>Ameise</strong> &rarr; <strong>Biene</strong> &rarr; <strong>Käfer</strong> &rarr; <strong>Motte</strong></p>
+			<p>Nutztiernamen absteigend:  <strong>Ziege</strong> &larr; <strong>Schwein</strong> &larr; <strong>Rind</strong> &larr; <strong>Huhn</strong></p>
+		</div>
+
+		<div class="lueckentext-quiz" lang="de">
+			<h2 id="bilderpuzzle">Bilderpuzzle</h2>
+			<p>Mit dem Lückentext-Quiz kann man auch Bilderpuzzle erstellen.</p>
+			<p><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_ganz_vorschau.jpg" alt="Vorschau" class="linksbuendig" /></p>
+			<table class="puzzle">
+				<tr>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_1_1.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_1_2.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_1_3.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_1_4.jpg" alt="" /></em></td>
+				</tr>
+				<tr>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_2_1.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_2_2.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_2_3.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_2_4.jpg" alt="" /></em></td>
+				</tr>
+				<tr>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_3_1.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_3_2.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_3_3.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_3_4.jpg" alt="" /></em></td>
+				</tr>
+				<tr>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_4_1.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_4_2.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_4_3.jpg" alt="" /></em></td>
+					<td><em><img src="https://felix-riesterer.de/main/images/puzzle-quiz/ostern_4_4.jpg" alt="" /></em></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="memo-quiz" lang="de">
+			<h2 id="memo-quiz">Memo-Quiz</h2>
+			<p>Finden Sie die zusammengehörenden Felder!</p>
+			<table>
+				<tr>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/birne.jpg" alt="Birne" /></td>
+					<td>Birne</td>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/birne.jpg" alt="Birne" /></td>
+				</tr>
+				<tr>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/biene.jpg" alt="Biene" /></td>
+					<td>Biene</td>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/biene.jpg" alt="Biene" /></td>
+				</tr>
+				<tr>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/gluecks_schwein.jpg" alt="Glücksschwein" /></td>
+					<td>Glücksschwein</td>
+					<td><img src="https://felix-riesterer.de/main/images/quizze/gluecks_schwein.jpg" alt="Glücksschwein" /></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="multiplechoice-quiz" lang="de">
+			<h2 id="multiplechoice-quiz">Multiple-Choice-Quiz</h2>
+			<p>Die folgenden Aufgaben können auch mehrere richtige Antworten enthalten!</p>
+			<p>Wer hat Amerika entdeckt? (Christoph Kolumbus)(!Marco Polo)(!James Cook)</p>
+			<p>Welches Tier ist ein Säugetier? (!Hai)(Wal)(Känguru)(!Meise)(Maus)(!Biene)</p>
+			<p>Wie lange dauerte der dreißigjährige Krieg? (!4 Jahre) (!10 Jahre) (!20 Jahre) (30 Jahre) (!9 Monate)</p>
+			<p>Warum kann sich ein Pferd nicht übergeben? (Ein Schließmuskel verhindert den Rücklauf der aufgenommenen Nahrung durch die Speiseröhre.)(!Der Hals ist zu lang.)(!Das ist eine genetische Besonderheit bei allen Unpaarhufern.)</p>
+		</div>
+
+		<div class="schuettel-quiz" lang="de">
+			<h2 id="schuettel-quiz">Schüttel-Quiz</h2>
+			<p>Finden Sie die unverdrehte Lösung zu den verdrehten Wörtern!</p>
+			<p>Froh zu sein bedarf es <strong>wenig</strong> und wer froh ist, ist ein <strong>König</strong>.</p>
+			<p>Australien befindet sich auf der <strong>südlichen</strong> Erdhalbkugel, <strong>Europa</strong> dagegen auf der <strong>nördlichen</strong>.</p>
+		</div>
+
+		<div class="kreuzwort-quiz" lang="de">
+			<h2 id="kreuzwort-quiz">Kleines Kreuzworträtsel</h2>
+			<p class="rquiz-screen">Beim Klick auf die Ziffern im Kreuzworträtsel öffnet sich ein Eingabefeld zum Eintragen.</p>
+			<table>
+				<tr>
+					<td>Garten</td>
+					<td>bepflanzter Bereich um ein Haus</td>
+				</tr>
+				<tr>
+					<td>Biene</td>
+					<td>Insekt</td>
+				</tr>
+				<tr>
+					<td>Baum</td>
+					<td>Wald bildende Pflanze</td>
+				</tr>
+				<tr>
+					<td>Sonne</td>
+					<td>Himmelskörper, der nur am Tag zu sehen ist</td>
+				</tr>
+				<tr>
+					<td>Wind</td>
+					<td>wetterbestimmende Luftbewegung</td>
+				</tr>
+				<tr>
+					<td>Blume</td>
+					<td>allgemein für 'Pflanze, die blüht'</td>
+				</tr>
+				<tr>
+					<td>Birne</td>
+					<td>Baumobst</td>
+				</tr>
+				<tr>
+					<td>Schwein</td>
+					<td>Nutztier</td>
+				</tr>
+				<tr>
+					<td>Mütze</td>
+					<td>Kopfbedeckung</td>
+				</tr>
+				<tr>
+					<td>Pferd</td>
+					<td>Reittier</td>
+				</tr>
+				<tr>
+					<td>mäßig</td>
+					<td>Gegenteil von 'übertrieben'</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="suchsel-quiz" lang="de">
+			<h2 id="suchsel-quiz">Suchsel-Quiz</h2>
+			<p>Finden Sie die Wörter!</p>
+			<table>
+				<tr><td>Birne</td></tr>
+				<tr><td>Biene</td></tr>
+				<tr><td>Ameise</td></tr>
+				<tr><td>Pferd</td></tr>
+				<tr><td>Käfer</td></tr>
+				<tr><td>Schaf</td></tr>
+				<tr><td>Schwein</td></tr>
+			</table>
+		</div>
+
+		<div class="buchstabenraten-quiz" lang="de">
+			<h2 id="buchstabenraten-quiz">Buchstabenraten-Quiz</h2>
+			<p>Erraten Sie die Wörter, indem Sie passende Buchstaben finden!</p>
+			<p>Die Wörter haben alle mit Tieren und Insekten zu tun.</p>
+			<table>
+				<tr><td>Birne</td></tr>
+				<tr><td>Biene</td></tr>
+				<tr><td>Ameise</td></tr>
+				<tr><td>Pferd</td></tr>
+				<tr><td>Käfer</td></tr>
+				<tr><td>Schaf</td></tr>
+				<tr><td>Schwein</td></tr>
+			</table>
+		</div>
+
+	</div>
+	</body>
+</html>
