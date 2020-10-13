@@ -1,168 +1,209 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="fr">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Mots croisés Geotribu</title>
-<link rel="stylesheet" media="all" title="style de la page" href="http://geotribu.net/applications/geogames/jeu-1/quiz/css/afficher_cacher_div.css" />
-<script type="text/javascript" src="http://geotribu.net/applications/geogames/jeu-1/quiz/afficher_cacher_div.js"></script>
-<script src="http://geotribu.net/applications/geogames/jeu-1/quiz/quiz.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Mots croisés Geotribu</title>
+    <link rel="stylesheet" media="all" title="style de la page" href="./lib/quiz/css/afficher_cacher_div.css" />
+    <script type="text/javascript" src="./lib/quiz/afficher_cacher_div.js"></script>
+    <script src="./lib/quiz/quiz.js" type="text/javascript"></script>
 </head>
 
 
 <body>
-<div class="kreuzwort-quiz" lang="fr">
-<table>
-<tr>
-<td>OPENLAYERS</td>
-<td>API JavaScript très populaire permettant l'affichage de données géographiques côté client</td>
-</tr>
-<tr>
-<td>CACHE</td>
-<td>Expression qui désigne le fait de préparer à l’avance toutes les images qui peuvent être consultées par un utilisateur sur un portail cartographique, dans le seul but est d'accélérer la consultation</td>
-</tr>
-<tr>
-<td>GEOMAJAS</td>
-<td>Environnement extensible de webmapping qui intègre de façon transparente des algorithmes puissants du côté serveur dans le navigateur web. Il fournit une plateforme pour l’intégration du côté serveur de données géospatiales permettant à de multiples utilisateurs de contrôler et de gérer les données depuis leurs propres navigateurs</td>
-</tr>
-<tr>
-<td>PROJ</td>
-<td>Bibliothèque de fonctions permettant  d'effectuer des conversions entre différentes projections cartographiques</td>
-</tr>
-<tr>
-<td>MAPFISH</td>
-<td>Framework flexible et complet pour construire des applications de cartographie en ligne. Il met l’accent sur la haute productivité et un développement de grande qualité. Il fournit des outils spécifiques pour créer des services web qui permettent d’interroger et d’éditer des objets géographiques</td>
-</tr>
-<tr>
-<td>TinyOWS</td>
-<td>Serveur cartographique qui gère le protocole WFS-T, aujourd'hui intégré au projet Mapserver-Suite</td>
-</tr>
-<tr>
-<td>GEOS</td>
-<td>Bibliothèque C++ qui vise à fournir toutes les fonctionnalités  JTS, Incluant toutes les spécifications OGC, les fonctions spatiales sous-jacentes et les opérateurs spatiaux, ainsi que des fonctions spécifiques de topologie améliorées</td>
-</tr>
-<tr>
-<td>KARTOGRAPH</td>
-<td>API cartographique qui peut être utilisée soit via une bibliothèque python ou soit via une bibliothèque javascript. L'utilisation du format SVG est le point fort de cette API</td>
-</tr>
-<tr>
-<td>MAPNIK</td>
-<td>Logiciel libre de rendu cartographique, utilisé notamment pour le rendu OSM</td>
-</tr>
-<tr>
-<td>ZOOPROJECT</td>
-<td>Framework pour le Web Processing Service (WPS) adapté pour les développeurs afin de créer et chaîner plusieurs Web Processing Services. Il supporte de nombreux langages de programmation</td>
-</tr>
-<tr>
-<td>GEOWEBCACHE</td>
-<td>Application Java utilisée pour mettre en cache les tuiles de carte provenant d'une variété de sources telles que les WMS</td>
-</tr>
-<tr>
-<td>LIZMAP</td>
-<td>Plugin Qgis qui permet de synchroniser facilement via FTP tous les fichiers nécessaires à l'affichage d'une carte avec QGISserver</td>
-</tr>
-<tr>
-<td>POLYMAPS</td>
-<td>Bibliothèque open source JavaScript permettant de créer des cartes vectorisées dynamiques et interactives au format SVG</td>
-</tr>
-<tr>
-<td>MAPFILE</td>
-<td>Fichier de configuration indispensable pour afficher des données avec MapServer</td>
-</tr>
-<tr>
-<td>SLD</td>
-<td>Schéma XML indiqué par l’OGC pour décrire le style d'une couche</td>
-</tr>
-<tr>
-<td>GOOGLEMAPS</td>
-<td>API cartographique côté client, qui est l'une des plus utilisées au monde.</td>
-</tr>
-<tr>
-<td>WMS</td>
-<td>Service qui sert à retourner une carte visualisable aux formats image tel que le JPEG, le PNG ou le GIF... depuis le serveur.</td>
-</tr>
-</table>
-</div>
-<div>
-<input type="image" src="https://cdn.geotribu.fr/img/geogames/recharge.png" Onclick="javascript:window.history.go(0)">
-</div>
-<div>
-<span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('texte');">Afficher les réponses</span>
-<div id="texte" class="texte">
-<table>
-<tr>
-<td><b>OPENLAYERS</b></td>
-<td>API JavaScript très populaire permettant l'affichage de données géographiques côté client</td>
-</tr>
-<tr>
-<td><b>CACHE</b></td>
-<td>Expression qui désigne le fait de préparer à l’avance toutes les images qui peuvent être consultées par un utilisateur sur un portail cartographique, dans le seul but est d'accélérer la consultation</td>
-</tr>
-<tr>
-<td><b>GEOMAJAS</b></td>
-<td>Environnement extensible de webmapping qui intègre de façon transparente des algorithmes puissants du côté serveur dans le navigateur web. Il fournit une plateforme pour l’intégration du côté serveur de données géospatiales permettant à de multiples utilisateurs de contrôler et de gérer les données depuis leurs propres navigateurs</td>
-</tr>
-<tr>
-<td><b>PROJ</b></td>
-<td>Bibliothèque de fonctions permettant  d'effectuer des conversions entre différentes projections cartographiques</td>
-</tr>
-<tr>
-<td><b>MAPFISH</b></td>
-<td>Framework flexible et complet pour construire des applications de cartographie en ligne. Il met l’accent sur la haute productivité et un développement de grande qualité. Il fournit des outils spécifiques pour créer des services web qui permettent d’interroger et d’éditer des objets géographiques</td>
-</tr>
-<tr>
-<td><b>TinyOWS</b></td>
-<td>Serveur cartographique qui gère le protocole WFS-T, aujourd'hui intégré au projet Mapserver-Suite</td>
-</tr>
-<tr>
-<td><b>GEOS</b></td>
-<td>Bibliothèque C++ qui vise à fournir toutes les fonctionnalités  JTS, Incluant toutes les spécifications OGC, les fonctions spatiales sous-jacentes et les opérateurs spatiaux, ainsi que des fonctions spécifiques de topologie améliorées</td>
-</tr>
-<tr>
-<td><b>KARTOGRAPH</b></td>
-<td>API cartographique qui peut être utilisée soit via une bibliothèque python ou soit via une bibliothèque javascript. L'utilisation du format SVG est le point fort de cette API</td>
-</tr>
-<tr>
-<td><b>MAPNIK</b></td>
-<td>Logiciel libre de rendu cartographique, utilisé notamment pour le rendu OSM</td>
-</tr>
-<tr>
-<td><b>ZOOPROJECT</b></td>
-<td>Framework pour le Web Processing Service (WPS) adapté pour les développeurs afin de créer et chaîner plusieurs Web Processing Services. Il supporte de nombreux langages de programmation</td>
-</tr>
-<tr>
-<td><b>GEOWEBCACHE</b></td>
-<td>Application Java utilisée pour mettre en cache les tuiles de carte provenant d'une variété de sources telles que les WMS</td>
-</tr>
-<tr>
-<td><b>LIZMAP</b></td>
-<td>Plugin Qgis qui permet de synchroniser facilement via FTP tous les fichiers nécessaires à l'affichage d'une carte avec QGISserver</td>
-</tr>
-<tr>
-<td><b>POLYMAPS</b></td>
-<td>Bibliothèque open source JavaScript permettant de créer des cartes vectorisées dynamiques et interactives au format SVG</td>
-</tr>
-<tr>
-<td><b>MAPFILE</b></td>
-<td>Fichier de configuration indispensable pour afficher des données avec MapServer</td>
-</tr>
-<tr>
-<td><b>SLD</b></td>
-<td>Schéma XML indiqué par l’OGC pour décrire le style d'une couche</td>
-</tr>
-<tr>
-<td><b>GOOGLEMAPS</b></td>
-<td>API cartographique côté client, qui est l'une des plus utilisées au monde.</td>
-</tr>
-<tr>
-<td><b>WMS</b></td>
-<td>Service qui sert à retourner une carte visualisable aux formats image tel que le JPEG, le PNG ou le GIF... depuis le serveur.</td>
-</tr>
-</table>
-</div>
-<script type="text/javascript">
-//<!--
-afficher_cacher('texte');
+    <div class="kreuzwort-quiz" lang="fr">
+        <table>
+            <tr>
+                <td>OPENLAYERS</td>
+                <td>API JavaScript très populaire permettant l'affichage de données géographiques côté client</td>
+            </tr>
+            <tr>
+                <td>CACHE</td>
+                <td>Expression qui désigne le fait de préparer à l’avance toutes les images qui peuvent être consultées
+                    par un utilisateur sur un portail cartographique, dans le seul but est d'accélérer la consultation
+                </td>
+            </tr>
+            <tr>
+                <td>GEOMAJAS</td>
+                <td>Environnement extensible de webmapping qui intègre de façon transparente des algorithmes puissants
+                    du côté serveur dans le navigateur web. Il fournit une plateforme pour l’intégration du côté serveur
+                    de données géospatiales permettant à de multiples utilisateurs de contrôler et de gérer les données
+                    depuis leurs propres navigateurs</td>
+            </tr>
+            <tr>
+                <td>PROJ</td>
+                <td>Bibliothèque de fonctions permettant d'effectuer des conversions entre différentes projections
+                    cartographiques</td>
+            </tr>
+            <tr>
+                <td>MAPFISH</td>
+                <td>Framework flexible et complet pour construire des applications de cartographie en ligne. Il met
+                    l’accent sur la haute productivité et un développement de grande qualité. Il fournit des outils
+                    spécifiques pour créer des services web qui permettent d’interroger et d’éditer des objets
+                    géographiques</td>
+            </tr>
+            <tr>
+                <td>TinyOWS</td>
+                <td>Serveur cartographique qui gère le protocole WFS-T, aujourd'hui intégré au projet Mapserver-Suite
+                </td>
+            </tr>
+            <tr>
+                <td>GEOS</td>
+                <td>Bibliothèque C++ qui vise à fournir toutes les fonctionnalités JTS, Incluant toutes les
+                    spécifications OGC, les fonctions spatiales sous-jacentes et les opérateurs spatiaux, ainsi que des
+                    fonctions spécifiques de topologie améliorées</td>
+            </tr>
+            <tr>
+                <td>KARTOGRAPH</td>
+                <td>API cartographique qui peut être utilisée soit via une bibliothèque python ou soit via une
+                    bibliothèque javascript. L'utilisation du format SVG est le point fort de cette API</td>
+            </tr>
+            <tr>
+                <td>MAPNIK</td>
+                <td>Logiciel libre de rendu cartographique, utilisé notamment pour le rendu OSM</td>
+            </tr>
+            <tr>
+                <td>ZOOPROJECT</td>
+                <td>Framework pour le Web Processing Service (WPS) adapté pour les développeurs afin de créer et chaîner
+                    plusieurs Web Processing Services. Il supporte de nombreux langages de programmation</td>
+            </tr>
+            <tr>
+                <td>GEOWEBCACHE</td>
+                <td>Application Java utilisée pour mettre en cache les tuiles de carte provenant d'une variété de
+                    sources telles que les WMS</td>
+            </tr>
+            <tr>
+                <td>LIZMAP</td>
+                <td>Plugin Qgis qui permet de synchroniser facilement via FTP tous les fichiers nécessaires à
+                    l'affichage d'une carte avec QGISserver</td>
+            </tr>
+            <tr>
+                <td>POLYMAPS</td>
+                <td>Bibliothèque open source JavaScript permettant de créer des cartes vectorisées dynamiques et
+                    interactives au format SVG</td>
+            </tr>
+            <tr>
+                <td>MAPFILE</td>
+                <td>Fichier de configuration indispensable pour afficher des données avec MapServer</td>
+            </tr>
+            <tr>
+                <td>SLD</td>
+                <td>Schéma XML indiqué par l’OGC pour décrire le style d'une couche</td>
+            </tr>
+            <tr>
+                <td>GOOGLEMAPS</td>
+                <td>API cartographique côté client, qui est l'une des plus utilisées au monde.</td>
+            </tr>
+            <tr>
+                <td>WMS</td>
+                <td>Service qui sert à retourner une carte visualisable aux formats image tel que le JPEG, le PNG ou le
+                    GIF... depuis le serveur.</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <input type="image" src="https://cdn.geotribu.fr/img/geogames/recharge.png"
+            Onclick="javascript:window.history.go(0)">
+    </div>
+    <div>
+        <span class="bouton" id="bouton_texte" onclick="javascript:afficher_cacher('texte');">Afficher les
+            réponses</span>
+        <div id="texte" class="texte">
+            <table>
+                <tr>
+                    <td><b>OPENLAYERS</b></td>
+                    <td>API JavaScript très populaire permettant l'affichage de données géographiques côté client</td>
+                </tr>
+                <tr>
+                    <td><b>CACHE</b></td>
+                    <td>Expression qui désigne le fait de préparer à l’avance toutes les images qui peuvent être
+                        consultées par un utilisateur sur un portail cartographique, dans le seul but est d'accélérer la
+                        consultation</td>
+                </tr>
+                <tr>
+                    <td><b>GEOMAJAS</b></td>
+                    <td>Environnement extensible de webmapping qui intègre de façon transparente des algorithmes
+                        puissants du côté serveur dans le navigateur web. Il fournit une plateforme pour l’intégration
+                        du côté serveur de données géospatiales permettant à de multiples utilisateurs de contrôler et
+                        de gérer les données depuis leurs propres navigateurs</td>
+                </tr>
+                <tr>
+                    <td><b>PROJ</b></td>
+                    <td>Bibliothèque de fonctions permettant d'effectuer des conversions entre différentes projections
+                        cartographiques</td>
+                </tr>
+                <tr>
+                    <td><b>MAPFISH</b></td>
+                    <td>Framework flexible et complet pour construire des applications de cartographie en ligne. Il met
+                        l’accent sur la haute productivité et un développement de grande qualité. Il fournit des outils
+                        spécifiques pour créer des services web qui permettent d’interroger et d’éditer des objets
+                        géographiques</td>
+                </tr>
+                <tr>
+                    <td><b>TinyOWS</b></td>
+                    <td>Serveur cartographique qui gère le protocole WFS-T, aujourd'hui intégré au projet
+                        Mapserver-Suite</td>
+                </tr>
+                <tr>
+                    <td><b>GEOS</b></td>
+                    <td>Bibliothèque C++ qui vise à fournir toutes les fonctionnalités JTS, Incluant toutes les
+                        spécifications OGC, les fonctions spatiales sous-jacentes et les opérateurs spatiaux, ainsi que
+                        des fonctions spécifiques de topologie améliorées</td>
+                </tr>
+                <tr>
+                    <td><b>KARTOGRAPH</b></td>
+                    <td>API cartographique qui peut être utilisée soit via une bibliothèque python ou soit via une
+                        bibliothèque javascript. L'utilisation du format SVG est le point fort de cette API</td>
+                </tr>
+                <tr>
+                    <td><b>MAPNIK</b></td>
+                    <td>Logiciel libre de rendu cartographique, utilisé notamment pour le rendu OSM</td>
+                </tr>
+                <tr>
+                    <td><b>ZOOPROJECT</b></td>
+                    <td>Framework pour le Web Processing Service (WPS) adapté pour les développeurs afin de créer et
+                        chaîner plusieurs Web Processing Services. Il supporte de nombreux langages de programmation
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>GEOWEBCACHE</b></td>
+                    <td>Application Java utilisée pour mettre en cache les tuiles de carte provenant d'une variété de
+                        sources telles que les WMS</td>
+                </tr>
+                <tr>
+                    <td><b>LIZMAP</b></td>
+                    <td>Plugin Qgis qui permet de synchroniser facilement via FTP tous les fichiers nécessaires à
+                        l'affichage d'une carte avec QGISserver</td>
+                </tr>
+                <tr>
+                    <td><b>POLYMAPS</b></td>
+                    <td>Bibliothèque open source JavaScript permettant de créer des cartes vectorisées dynamiques et
+                        interactives au format SVG</td>
+                </tr>
+                <tr>
+                    <td><b>MAPFILE</b></td>
+                    <td>Fichier de configuration indispensable pour afficher des données avec MapServer</td>
+                </tr>
+                <tr>
+                    <td><b>SLD</b></td>
+                    <td>Schéma XML indiqué par l’OGC pour décrire le style d'une couche</td>
+                </tr>
+                <tr>
+                    <td><b>GOOGLEMAPS</b></td>
+                    <td>API cartographique côté client, qui est l'une des plus utilisées au monde.</td>
+                </tr>
+                <tr>
+                    <td><b>WMS</b></td>
+                    <td>Service qui sert à retourner une carte visualisable aux formats image tel que le JPEG, le PNG ou
+                        le GIF... depuis le serveur.</td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript">
+            //<!--
+            afficher_cacher('texte');
 //-->
-</script>
+        </script>
 </body>
+
 </html>
