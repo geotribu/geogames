@@ -1,5 +1,7 @@
 # Geogames
 
+[![logo geotribu](https://cdn.geotribu.fr/img/internal/charte/geotribu_logo_64x64.png)](https://static.geotribu.fr)
+
 Petits quiz géomatiques réalisés par [Jérémie ORY](https://twitter.com/Jersig/) ([@Jersig](https://github.com/jersig)) pour [Geotribu](https://static.geotribu.fr/) et remis au goût du jour par [Julien MOURA](https://twitter.com/geojulien/) ([@Guts](https://github.com/guts/)).
 
 ![capture geogame 1](https://cdn.geotribu.fr/img/geogames/geogame1_capture.png "Aperçu du premier geogame de Geotribu")
